@@ -1,0 +1,40 @@
+<script type="x-engine/func" data-func="template" data-name="header"></script>
+
+<div id="page_post">
+  <div class="wrapper">
+    <div class="gutter">
+      <div class="gutter_inner">     
+        <div class="post_list_navigtaion">
+          <script type="x-engine/func" data-func="list-navigation"></script>
+        </div>
+      </div>      
+      <div class="gutter_inner">
+        <div class="post_author">
+          <div class="post_author_info">
+            <script type="x-engine/func" data-func="member-photo" data-thumb="true"></script>
+            <script type="x-engine/func" data-func="member-name"></script>
+            <script type="x-engine/func" data-func="follow-button"></script>
+          </div>
+        </div>
+      </div>      
+      <div class="post_social_share">
+        <script type="x-engine/func" data-func="share-buttons"></script>
+      </div>
+    </div>
+    <div class="main">
+      <div class="post_content">
+        <script type="x-engine/func" data-func="post-media"></script>
+        <script type="x-engine/func" data-func="post-reaction" data-show-if="vote"></script>
+        <div class="post_inner2">
+          <script type="x-engine/func" data-func="post-title"></script>
+          <script type="x-engine/func" data-func="post-body"></script>
+          <script type="x-engine/func" data-func="post-options"></script>
+        </div>
+        <script type="x-engine/func" data-func="post-reaction" data-show-if="like"></script>
+        <script type="x-engine/func" data-func="post-comments"></script>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="x-engine/func" data-func="template" data-name="footer"></script>

@@ -1,0 +1,19 @@
+a {
+color: #0088cc;
+}
+
+#header_wrapper {
+height: 36px;
+background-color: #f9f9f9;
+padding: 1px 0px;
+}
+
+
+#header #menu > ul.nav > li > a {
+color: #524d4d;
+}
+
+
+#header #menu > ul.nav > li > a:hover {
+text-decoration: underline;
+}

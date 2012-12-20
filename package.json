@@ -1,0 +1,240 @@
+{
+  "title": "Board Theme",
+  "description": "An image-focused theme that incorporates the popular \"masonry\" layout made popular by sites like Pinterest. Great for photo sharing communities.",
+  "version": "0.0.1",
+  "screenshot": "http:\/\/static.socialengine.com\/images\/admin\/themes\/theme_board.png",
+  "author": {
+    "name": "SocialEngine",
+    "email": "info@socialengine.com",
+    "url": "http:\/\/www.socialengine.com"
+  },
+  "name": "board",
+  "preset": "board",
+  "files": [
+    {
+      "file": "categories.html",
+      "name": "categories",
+      "title": "Categories",
+      "url": "categories",
+      "homepage": false,
+      "mainmenu": true,
+      "order": 1
+    },
+    {
+      "file": "following.html",
+      "name": "following",
+      "title": "Following",
+      "url": "following",
+      "homepage": false,
+      "mainmenu": true,
+      "order": 6
+    },
+    {
+      "file": "footer-private.html",
+      "name": "footer-private",
+      "title": "Footer (Private)",
+      "url": "",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "footer.html",
+      "name": "footer",
+      "title": "Footer",
+      "url": "",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "gallery.html",
+      "name": "gallery",
+      "title": "Gallery Viewer",
+      "url": "",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "header-private.html",
+      "name": "header-private",
+      "title": "Header (Private)",
+      "url": "",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "header.html",
+      "name": "header",
+      "title": "Header",
+      "url": "",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "hot.html",
+      "name": "hot",
+      "title": "Hot",
+      "url": "hot",
+      "homepage": true,
+      "mainmenu": true,
+      "order": 2
+    },
+    {
+      "file": "index.html",
+      "name": "index",
+      "title": "Index",
+      "url": "",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "internal-error.html",
+      "name": "internal-error",
+      "title": "Internal Error",
+      "url": "error\/500",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "list.html",
+      "name": "list",
+      "title": "list",
+      "url": "list",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "maintenance.html",
+      "name": "maintenance",
+      "title": "Maintenance",
+      "url": "error\/503",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "members.html",
+      "name": "members",
+      "title": "Members",
+      "url": "members",
+      "homepage": false,
+      "mainmenu": true,
+      "order": 5
+    },
+    {
+      "file": "new.html",
+      "name": "new",
+      "title": "New",
+      "url": "new",
+      "homepage": false,
+      "mainmenu": true,
+      "order": 3
+    },
+    {
+      "file": "not-found.html",
+      "name": "not-found",
+      "title": "Not Found",
+      "url": "error\/404",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "post.html",
+      "name": "post",
+      "title": "Post",
+      "url": "post",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "profile.html",
+      "name": "profile",
+      "title": "Profile",
+      "url": "profile",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "search.html",
+      "name": "search",
+      "title": "Search",
+      "url": "search",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "settings.html",
+      "name": "settings",
+      "title": "Settings",
+      "url": "settings",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "sign-in.html",
+      "name": "sign-in",
+      "title": "Sign-In",
+      "url": "sign-in",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "sign-up.html",
+      "name": "sign-up",
+      "title": "Sign-Up",
+      "url": "sign-up",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "tags.html",
+      "name": "tags",
+      "title": "Tags",
+      "url": "tags",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "terms-of-use.html",
+      "name": "terms-of-use",
+      "title": "Terms of Use",
+      "url": "terms-of-use",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "top.html",
+      "name": "top",
+      "title": "Top Rated",
+      "url": "top",
+      "homepage": false,
+      "mainmenu": true,
+      "order": 4
+    },
+    {
+      "file": "wall.html",
+      "name": "wall",
+      "title": "Sign In Required",
+      "url": "error\/403",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    }
+  ]
+}

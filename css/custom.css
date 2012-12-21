@@ -17,3 +17,21 @@ color: #524d4d;
 #header #menu > ul.nav > li > a:hover {
 text-decoration: underline;
 }
+
+/* ads */
+#ads_header {
+text-align:center;
+padding-bottom: 20px;
+display: none;
+}
+
+#ads_post_below {
+text-align:center;
+padding-bottom: 20px;
+display: none;
+}
+
+#ads_post_sidebar {
+text-align:center;
+display: none;
+}
